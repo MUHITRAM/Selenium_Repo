@@ -35,6 +35,7 @@ jobs:
           google-chrome --version
 
       - name: Run Selenium Tests
+        working-directory: ./com.learning_Selenium
         run: mvn -B clean test -DfailIfNoTests=true
 
       - name: Upload Test Reports
