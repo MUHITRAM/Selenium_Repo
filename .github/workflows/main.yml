@@ -44,6 +44,5 @@ jobs:
         with:
           name: selenium-test-reports
           path: |
-            target/surefire-reports/
-            test-output/
+            com.learning_Selenium/target/surefire-reports/
           if-no-files-found: ignore
